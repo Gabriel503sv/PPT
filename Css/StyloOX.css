@@ -1,0 +1,59 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+#Contaniner{
+    background-color: rgba(0, 110, 255, 0.295);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+
+#header{
+    margin: 100px 0 50px 0;
+    text-align: center;
+}
+
+#header h1{
+    font-size: 60px;
+    color: white;
+}
+
+#seccion-juego{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+}
+
+#cuadro-In{
+    width: 40%;
+    height: auto;
+    margin-top: 100px;
+    
+}
+
+.cuadro{
+    margin: 1px;
+    width: 30%;
+    height: 150px;
+    float: left;
+    background-color: rgba(21, 99, 200, 0.329);
+    border: 2px solid black;
+    border-radius: 20%;
+    text-align: center;
+    
+   
+}
+.cuadro p{
+    margin-top: 30px;
+    font-size: 80px;
+    color: white;
+}
+
+.position1:hover,.position2:hover,.position3:hover,.position4:hover,.position5:hover,.position6:hover,.position7:hover,.position8:hover,.position9:hover{
+        background-color: rgba(21, 99, 200, 0.548);
+        
+        
+}

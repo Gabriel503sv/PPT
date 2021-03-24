@@ -5,13 +5,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="Css/Style.css">
-    <title>Piedra , Papelo o Tijeras</title>
+    <title>X y O</title>
 </head>
 <body>
     <div id="Container">
         <header id="Cabecera">
             <div class="Center">
-                <img src="img/ppt.png" alt="">
+                <img src="img/tres-en-raya-jugar-gato-google-1024x683.png" alt="">
             </div>
         
             
@@ -20,20 +20,21 @@
             <div id="Cont-Jugadores">
                 <div class="jugadores" >
                     <h3>Jugador 1(X)</h3>
-                    <button>Human</button>
+                    <button id = "boton1"  onclick = "funcionboton()">Human</button>
                 </div>
                 <div class="jugadores">
                     <h3>Jugador 2(O)</h3>
-                    <button>Human</button>
+                    <button id = "boton2" onclick = "funcionboton1()">Human</button>
                 </div >
                 
             </div>
             
             <div id="Cont-play">
-                <button>Play</button>
+                <button onclick="Funcionbotonplay()">Play</button>
             </div>
 
         </section>
     </div>
+    <script src = "Js/Javascript.js"></script>
 </body>
 </html>

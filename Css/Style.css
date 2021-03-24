@@ -11,6 +11,7 @@
 }
 
 .Center{
+
     margin-top: 20px;
     display: flex;
     justify-content: center;
@@ -18,12 +19,13 @@
 }
 
 .Center img{
-    width: 50%;
+    width: 40%;
 }
 
 #Cont-Jugadores{
     margin: 50px;
     display: flex;
+    
 }
 
 #Cont-play{
@@ -51,7 +53,7 @@
     font-size: 25px;
     background-color: rgba(165, 42, 42, 0.568);
     color: white;
-    border-radius: 15px; 
+    border-radius: 20px;
 }
 
 .jugadores button:hover,#Cont-play button:hover{
@@ -66,10 +68,6 @@
 
 
 @media screen and (max-width:800px){
-
-    #Titulo h1{
-        font-size: 20px;
-    }
 
 
 }
